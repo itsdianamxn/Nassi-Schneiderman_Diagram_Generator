@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="960" height="957" x="0" y="0" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .bar {fill: white;pointer-events: all;}
+    .bar:hover { fill: yellow;}
+    .if {fill: lightpink;pointer-events: all;}
+    .if:hover { fill: yellow;}
+    .while {fill: lightgreen;pointer-events: all;}
+    .while:hover { fill: yellow;}
+    .for {fill: #F5B041;pointer-events: all;}
+    .for:hover { fill: yellow;}
+    .repeat {fill: lightblue;pointer-events: all;}
+    .repeat:hover { fill: yellow;}
+    .switch {fill: lightcyan;pointer-events: all;}
+    .switch:hover { fill: yellow;}
+</style>
+
+   <rect class="bar" x="0" y="0" width="959" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="24" text-anchor="middle" alignment-baseline="center"  fill="black">cin&gt;&gt;n</text>
+   <rect class="for" x="0" y="29" width="959" height="58" stroke="red" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="53" text-anchor="middle" alignment-baseline="center"  fill="black">for(int i=0; i&lt;n; i++)</text>
+   <rect class="bar" x="14" y="58" width="945" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="486" y="82" text-anchor="middle" alignment-baseline="center"  fill="black">cin&gt;&gt;x[i];</text>
+   <rect class="bar" x="0" y="87" width="959" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="111" text-anchor="middle" alignment-baseline="center"  fill="black">bool ok=0</text>
+   <rect class="repeat" x="0" y="116" width="959" height="203" stroke="blue" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="314" text-anchor="middle" alignment-baseline="center"  fill="black">repeat until(ok==0)</text>
+   <rect class="bar" x="14" y="116" width="945" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="486" y="140" text-anchor="middle" alignment-baseline="center"  fill="black">ok=0;</text>
+   <rect class="for" x="14" y="145" width="945" height="145" stroke="red" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="486" y="169" text-anchor="middle" alignment-baseline="center"  fill="black">for (int i=0; i&lt;n; i++)</text>
+   <rect class="if" x="28" y="174" width="931" height="116" stroke="magenta" stroke-width="1"/> 
+   <rect class="bar" x="28" y="232" width="466" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="261" y="256" text-anchor="middle" alignment-baseline="center"  fill="black">swap(x[i],x[i+1])</text>
+   <rect class="bar" x="28" y="261" width="466" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="261" y="285" text-anchor="middle" alignment-baseline="center"  fill="black">ok=1;</text>
+   <line x1="28" y1="174" x2="493" y2="232" stroke="magenta" />
+   <line x1="493" y1="232" x2="959" y2="174" stroke="magenta" />
+   <line x1="28" y1="232" x2="959" y2="232" stroke="magenta" />
+   <text style="font-family:'Lucida Bright'" x="944" y="227" text-anchor="middle" alignment-baseline="center"  fill="black">NU</text>
+   <text style="font-family:'Lucida Bright'" x="43" y="227" text-anchor="middle" alignment-baseline="center"  fill="black">DA</text>
+   <text style="font-family:'Lucida Bright'" x="493" y="203" text-anchor="middle" alignment-baseline="center"  fill="black">if(x[i]&gt;x[i+1]</text>
+   <rect class="bar" x="0" y="319" width="959" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="343" text-anchor="middle" alignment-baseline="center"  fill="black">int i=0</text>
+   <rect class="while" x="0" y="348" width="959" height="87" stroke="green" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="372" text-anchor="middle" alignment-baseline="center"  fill="black">while(i&lt;n)</text>
+   <rect class="bar" x="14" y="377" width="945" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="486" y="401" text-anchor="middle" alignment-baseline="center"  fill="black">cout&lt;&lt;x[i]&lt;&lt;" ";</text>
+   <rect class="bar" x="14" y="406" width="945" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="486" y="430" text-anchor="middle" alignment-baseline="center"  fill="black">i++;</text>
+   <rect class="bar" x="0" y="435" width="959" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="459" text-anchor="middle" alignment-baseline="center"  fill="black">int cmmdc=0;</text>
+   <rect class="bar" x="0" y="464" width="959" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="488" text-anchor="middle" alignment-baseline="center"  fill="black">int a=x[0];</text>
+   <rect class="for" x="0" y="493" width="959" height="232" stroke="red" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="517" text-anchor="middle" alignment-baseline="center"  fill="black">for(int i=1; i&lt;n; i++)</text>
+   <rect class="bar" x="14" y="522" width="945" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="486" y="546" text-anchor="middle" alignment-baseline="center"  fill="black">int b=x[i];</text>
+   <rect class="while" x="14" y="551" width="945" height="116" stroke="green" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="486" y="575" text-anchor="middle" alignment-baseline="center"  fill="black">while(b)</text>
+   <rect class="bar" x="28" y="580" width="931" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="493" y="604" text-anchor="middle" alignment-baseline="center"  fill="black">int r = a%b;</text>
+   <rect class="bar" x="28" y="609" width="931" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="493" y="633" text-anchor="middle" alignment-baseline="center"  fill="black">a=b;</text>
+   <rect class="bar" x="28" y="638" width="931" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="493" y="662" text-anchor="middle" alignment-baseline="center"  fill="black">b=r;</text>
+   <rect class="bar" x="14" y="667" width="945" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="486" y="691" text-anchor="middle" alignment-baseline="center"  fill="black">cmmdc = a;</text>
+   <rect class="bar" x="14" y="696" width="945" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="486" y="720" text-anchor="middle" alignment-baseline="center"  fill="black">a=cmmdc;</text>
+   <rect class="bar" x="0" y="725" width="959" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="749" text-anchor="middle" alignment-baseline="center"  fill="black">cout&lt;&lt;"Cel mai mic divizor comun al numerelor este "&lt;&lt;cmmdc;</text>
+   <rect class="switch" x="0" y="754" width="959" height="203" stroke="cyan" stroke-width="1"/> 
+   <line x1="0" y1="754" x2="640" y2="841" stroke="cyan" />
+   <line x1="640" y1="841" x2="959" y2="754" stroke="cyan" />
+   <text style="font-family:'Lucida Bright'" x="640" y="778" text-anchor="middle" alignment-baseline="center"  fill="black">switch cmmdc</text>
+   <text style="font-family:'Lucida Bright'" x="92" y="836" text-anchor="middle" alignment-baseline="center"  fill="black">case cmmdc%3 == 0</text>
+   <line x1="0" y1="841" x2="0" y2="754" stroke="cyan" />
+   <rect class="if" x="0" y="841" width="319" height="87" stroke="magenta" stroke-width="1"/> 
+   <rect class="bar" x="0" y="899" width="160" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="80" y="923" text-anchor="middle" alignment-baseline="center"  fill="black">cout&lt;&lt;"DA"</text>
+   <rect class="bar" x="160" y="899" width="160" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="240" y="923" text-anchor="middle" alignment-baseline="center"  fill="black">cout&lt;&lt;"NU";</text>
+   <line x1="0" y1="841" x2="159" y2="899" stroke="magenta" />
+   <line x1="159" y1="899" x2="319" y2="841" stroke="magenta" />
+   <line x1="0" y1="899" x2="319" y2="899" stroke="magenta" />
+   <text style="font-family:'Lucida Bright'" x="304" y="894" text-anchor="middle" alignment-baseline="center"  fill="black">NU</text>
+   <text style="font-family:'Lucida Bright'" x="15" y="894" text-anchor="middle" alignment-baseline="center"  fill="black">DA</text>
+   <text style="font-family:'Lucida Bright'" x="159" y="870" text-anchor="middle" alignment-baseline="center"  fill="black">if(cmmdc%2==0)</text>
+   <rect class="bar" x="0" y="928" width="319" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="159" y="952" text-anchor="middle" alignment-baseline="center"  fill="black">break;</text>
+   <text style="font-family:'Lucida Bright'" x="411" y="836" text-anchor="middle" alignment-baseline="center"  fill="black">case cmmdc%3 == 1</text>
+   <line x1="319" y1="841" x2="319" y2="797" stroke="cyan" />
+   <rect class="while" x="319" y="841" width="319" height="58" stroke="green" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="865" text-anchor="middle" alignment-baseline="center"  fill="black">while(cmmdc % 6 !=0)</text>
+   <rect class="bar" x="333" y="870" width="305" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="486" y="894" text-anchor="middle" alignment-baseline="center"  fill="black">cmmdc--;</text>
+   <rect class="bar" x="319" y="899" width="319" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="479" y="923" text-anchor="middle" alignment-baseline="center"  fill="black">break;</text>
+   <text style="font-family:'Lucida Bright'" x="822" y="836" text-anchor="middle" alignment-baseline="center"  fill="black">default:</text>
+   <rect class="bar" x="640" y="841" width="319" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="799" y="865" text-anchor="middle" alignment-baseline="center"  fill="black">cmmdc++;</text>
+   <rect class="bar" x="640" y="870" width="319" height="29" stroke="black" stroke-width="1"/> 
+   <text style="font-family:'Lucida Bright'" x="799" y="894" text-anchor="middle" alignment-baseline="center"  fill="black">i--;</text>
+</svg>

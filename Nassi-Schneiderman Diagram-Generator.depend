@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1673096548 source:c:\users\daniel\desktop\codeblocks\nassi-schneiderman diagram-generator\create_tree.cpp
+	"nassi.h"
+
+1673096475 c:\users\daniel\desktop\codeblocks\nassi-schneiderman diagram-generator\nassi.h
+	<windef.h>
+	<cstring>
+	<iostream>
+	<windows.h>
+	<Commdlg.h>
+
+1673274978 source:c:\users\daniel\desktop\codeblocks\nassi-schneiderman diagram-generator\desenare.cpp
+	<graphics.h>
+	<iostream>
+	<fstream>
+	"nassi.h"
+
+1673276907 source:c:\users\daniel\desktop\codeblocks\nassi-schneiderman diagram-generator\main.cpp
+	<iostream>
+	<graphics.h>
+	<fstream>
+	"nassi.h"
+
+1673105091 source:c:\users\daniel\desktop\codeblocks\nassi-schneiderman diagram-generator\read_tree.cpp
+	<cstring>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<Commdlg.h>
+	"nassi.h"
+	<string>
+
+1673096548 source:c:\users\diana\onedrive\facultate\proiect-nassi\nassi-schneiderman diagram-generator\create_tree.cpp
+	"nassi.h"
+
+1673096475 c:\users\diana\onedrive\facultate\proiect-nassi\nassi-schneiderman diagram-generator\nassi.h
+	<windef.h>
+	<cstring>
+	<iostream>
+	<windows.h>
+	<Commdlg.h>
+
+1673549402 source:c:\users\diana\onedrive\facultate\proiect-nassi\nassi-schneiderman diagram-generator\desenare.cpp
+	<graphics.h>
+	<iostream>
+	<fstream>
+	"nassi.h"
+
+1673105091 source:c:\users\diana\onedrive\facultate\proiect-nassi\nassi-schneiderman diagram-generator\read_tree.cpp
+	<cstring>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<Commdlg.h>
+	"nassi.h"
+	<string>
+
+1675016512 source:c:\users\diana\onedrive\facultate\proiect-nassi\nassi-schneiderman diagram-generator\main.cpp
+	<iostream>
+	<graphics.h>
+	<fstream>
+	"nassi.h"
+

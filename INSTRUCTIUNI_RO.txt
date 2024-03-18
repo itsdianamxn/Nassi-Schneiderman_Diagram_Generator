@@ -1,0 +1,50 @@
+(1)
+assignment: <variable> = <expression>
+
+(2)
+if(<condition>)
+{
+	<instruction sequence>
+}
+else
+{
+	<instruction sequence>
+}
+
+(3)
+while(<condition>)
+{
+	<instruction sequence>
+}
+
+(4)
+for(<condition>)
+{
+	<instruction sequence>
+}
+(5)
+repeat
+{
+	<instruction sequence>
+}
+until(<condition>)
+
+(6)
+switch(<condition>)
+{
+	case 1:
+	{
+		<instruction sequence>
+	}
+	case 2:
+	{
+		<instruction sequence>
+	}
+	.
+	.
+	.
+	default:
+	{
+		<instruction sequence>
+	}
+}

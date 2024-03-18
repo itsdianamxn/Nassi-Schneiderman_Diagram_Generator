@@ -1,0 +1,70 @@
+using VVP = vector <vector <pair<int , int> > >;
+using VI = vector <int>;
+using PI = pair<int , int>;
+VI d;
+VVP G;
+const int Inf = 0x3f3f3f3f;
+int cer , n , s , f , C[50001] , cate , x , T[50001] , cnt , rez[50001];
+
+
+cin >> cer >> n >> s >> f;
+	G = VVP(n + 1);
+    for(int i = 1 ; i <= n ; i++)
+{
+		cin >> C[i];
+}
+    for(int i = 1 ; i <= n ; i++)
+    {
+        cin >> cate;
+        for(int j = 1 ; j <= cate ; j++)
+        {
+            cin >> x;
+            int cost = max(C[i] , C[x]) / min(C[i] , C[x]);
+            G[i].push_back({x , cost});
+        }
+    }
+    d = VI(n + 1, Inf);
+    priority_queue<PI, vector<PI>, greater<PI>> Q;
+    int y , cost , dist;
+    d[x] = 0;
+    Q.push({0 , x});
+    while(!Q.empty())
+    {
+        x = Q.top().second;
+        dist = Q.top().first;
+        Q.pop();
+        if(dist > d[x]) 
+		{
+			continue;
+		}
+        for(auto p : G[x])
+        {
+            y = p.first;
+            cost = p.second;
+            if(d[y] > d[x] + cost)
+            {
+                d[y] = d[x] + cost;
+                Q.push({d[y] , y});
+                T[y] = x;
+            }
+        }
+    }
+    if(cer == 1)
+	{
+	cout << d[f];
+	}
+    else
+    {
+        int poz = T[f];
+        rez[++cnt] = f;
+        while(poz != 0)
+        {
+            rez[++cnt] = poz;
+            poz = T[poz];
+        }
+        cout << cnt << '\n';
+        for(int i = cnt ; i >= 1 ; i--)
+			{
+            cout << rez[i] << " ";
+			}
+    }
